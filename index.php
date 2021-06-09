@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang='fr'>
 	<head>
-        <title>PHP ex2.6 condition</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>PHP ex 2.6 condition</title>
     </head>
     <body >
-        <?php
-        $age=21;
-        if( $age >= 18)
-        {
-            echo ("Tu es majeur");
-        }
-        else
-        {
-            echo ("Tu n'est pas majeur");
-        }
-       ?>
+        <p>
+            <?php
+            $age=21;
+            if( $age >= 18)
+            {
+                echo ('Tu es majeur');
+            }
+            else
+            {
+                echo ('Tu n\est pas majeur');
+            }
+            ?>
+       </p>
     </body>
 </html>
